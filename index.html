@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -36,8 +36,10 @@
 						<div class="inner">
 							<h1>Hello</h1>
 							<p>My name is Jacob Neeley, I am a senior at Texas State University pursuing a degree in Computer Information Systems.
-								 I am a photographer and aspiring software developer.</p>
-								 <!--put something to tell the user to scroll down.-->
+								 I am a photographer and an aspiring software developer.</p>
+							<div>
+								<a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+							</div>						
 						</div>
 					</section>
 
@@ -56,13 +58,25 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Experience</h2>
 									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li>
+											<div class = 'desc'>
+												<div class = 'expandContent' id = 'showMore1'>
+													<p>
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quam quasi nam vero doloribus atque magnam quos, mollitia modi laboriosam facilis iusto placeat earum? Ea delectus earum impedit dolore perspiciatis.
+													</p>
+												</div>
+											</div>
+											<div class ="expandMoreHolder">
+												<span expand-more data-hidetext="Show Less" data-showtext="Show More"
+												data-target="showMore1" class ="button">Show More</span>
+											</div>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -117,8 +131,9 @@
 						<div class="inner">
 							<h2>Contact</h2>
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<!--
 							<div class="split style1">
-								<!-- <section>
+								<section>
 									<form method="post" action="#">
 										<div class="fields">
 											<div class="field half">
@@ -138,7 +153,8 @@
 											<li><a href="" class="button submit">Send Message</a></li>
 										</ul>
 									</form>
-								</section> -->
+								</section> 
+											-->
 								<section>
 									<ul class="contact">
 										<li>
@@ -179,6 +195,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src = "assets/js/expandScript.js"></script>
 	</body>
 </html>
