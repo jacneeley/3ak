@@ -16,17 +16,3 @@ document.addEventListener('DOMContentLoaded', ()=>{
     })
 
 })
-// var exp = 
-// document.getElementsByClassName('expand');
-// var i;
-// for (i = 0; i < exp.length; i++) {
-//     exp[i].addEventListener("click", function() {
-//       this.classList.toggle("active");
-//       var con = this.nextElementSibling;
-//       if (con.style.maxHeight){
-//         con.style.maxHeight = null;
-//       } else {
-//         con.style.maxHeight = con.scrollHeight + "px";
-//       } 
-//     });
-// }

@@ -171,15 +171,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 
 /* Read More button */
-.btn-expand-more{
-background-color: inherit;
-color: inherit;
-cursor: pointer;
-width: 100%;
-border: none;
-text-align: left;
-outline: none;
-}
 
 .active, expand:hover{
 	background-color: inherit;
@@ -199,7 +190,7 @@ outline: none;
 }
 .expandMoreHolder{
 	padding: 15px 0;
-	text-align: center;
+	text-align: left;
 
 }
 
