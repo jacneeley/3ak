@@ -2605,9 +2605,9 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
-			background: #ffffff;
+			background: #514f16;
 			border-radius: 100%;
-			color: #ffffff;
+			color: #514f16;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3104,7 +3104,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(81, 79, 22);
+				background: rgb(151, 147, 145);
 				content: '';
 				display: block;
 				height: 100%;
