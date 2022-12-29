@@ -256,6 +256,10 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 		margin: 0 0 2em 0;
 	}
 
+	.block{
+		padding: 25px 50px 75px 100px;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #e6e6e6;
 		font-weight: bold;
