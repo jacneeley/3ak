@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <!--
 	Hyperspace by HTML5 UP
-	Edited by 3ak
+	modified by 3ak
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -35,46 +35,70 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Hello</h1>
-							<p>My name is Jacob Neeley, I am a senior at Texas State University pursuing a degree in Computer Information Systems.
-								 I am a photographer and aspiring software developer.</p>
-								 <!--put something to tell the user to scroll down.-->
+							<p>
+								My name is Jacob Neeley, I am a senior at Texas State University pursuing a degree in Computer Information Systems.
+								<br>
+								I am a photographer and an aspiring software developer.
+							</p>
+							<div>
+								<a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+							</div>						
 						</div>
 					</section>
 
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Brief</h2>
+									<p class="block">
+										I have always been drawn to tech.
+										I began tinkering with computers in middle school, messing with parts and building my own rigs.
+										My first introduction to computer science was in college when I took an intro visual programming course taught with C#.
+										I then found myself wandering deeper into CS rabbit holes in hopes of expanding my skillset.
+									</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="me.html" class="button">Read more</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Professional Experience</h2>
+									<p>
+										Full Stack Software Development Intern
+										<br>
+										SHI| ASG Group/Product Development, Remote Summer Intern
+									</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li>
+											<div class = 'desc'>
+												<div class = 'expandContent' id = 'showMore1'>
+													<ul>
+														My experience as an Intern at SHI was truly priceless. It served as my introduction to the DevOps world.
+														To say that I was dropped into the deep end would be an understatement. 
+														I was exposed to so many new concepts, and the amount of knowledge associated with everything I was introduced to felt limitless.
+														To touch on some of the things I did during my time at SHI:
+														<ul>
+															<li>
+																Provided business value to the ASG group and their applications through unit testing, bug remediation, and automated test writing for CI\CD pipelines.
+															</li>
+															<li>
+																Converted story points, wrote documentation, refactored code for front-end and back-end apps.
+															</li>
+														</ul>
+													<!-- dl full resume button -->
+													</ul>
+												</div>
+											</div>
+											<div class ="expandMoreHolder">
+												<span expand-more data-hidetext="Show Less" data-showtext="Show More"
+												data-target="showMore1" class ="button">Show More</span>
+											</div>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -84,97 +108,94 @@
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>Highlighted Projects</h2>
 							<div class="features">
 								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<a href="https://github.com/jacneeley/TexasBreweriesAPI_Prototype" target ="_blank"><span class="icon solid major fa-gem"></span></a>
+									<h3>TexasBreweriesAPI_Prototype</h3>
+									<p>
+										This was an application built as part of the interview process for the software development internship at SHI.
+									</p>
+									<p>
+										Applicants were tasked with building a full-stack application with the back-end holding data from <a href="https://www.openbrewerydb.org/" target ="_blank">OpenBreweryDB</a>
+										and the front-end displaying Texas breweries that a user can query and interact with on a webpage.
+									</p>
+									<li>
+										Goal: Develop an app that calls upon an API, stores JSON data into a database, build a webpage that displays that data for the user.
+									</li>
+									<li>
+										What was Delivered: A C# application built on Visual Studio 2017 framework 4.7.2 that collects all the necessary data.
+										ASP.NET aspx webforms were built to display the relevant BrewDB data.
+									</li>		
 								</section>
 								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<a href="https://github.com/jacneeley/crypto-gpuAnalysis" target="_blank"><span class="icon solid major fa-code"></span></a>
+									<h3>Crypto-GPU Analysis</h3>
+									<p>
+										Data Mining Project that served as my introduction to the data science concept of model building.
+										While this project was built for a data mining course, it heavily relies on python.
+										It was a bit ambitious at the time, but taught me a lot about python(and a bit about R).
+									</p>
+									<li>
+										Goal: Collect data related to the price of bitcoin and the aftermarket prices of Computer Graphics Cards.
+										Clean the data, run some tests, build a linear regression model and test the following hypothesis: is the value of bitcoin a good predictor of aftermarket gpu price?
+									</li>
+									<li>
+										What was Delivered: A Linear Regression model built using data that was scraped from Tom's hardware article, GPU Prices by Jarred Walton and historical bitcoin prices downloaded as a csv from <a href ="https://www.blockchain.com/explorer/charts/market-price">blockchain.com</a>.
+										Data was handled using python libraries pandas, beautifulsoup, numpy, etc.
+									</li>
 								</section>
 								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<a href ="https://github.com/jacneeley/CompetitiveFPSData" target="_blank"><span class="icon solid major fa-code"></span></a>
+									<h3>CompetitiveFPS Analysis</h3>
+									<p>
+										Python Project that utilizes several python libaries to collect, clean and handle data.
+										The Project aims to analyze Professional Player settings and stats from different competitive First-Person Shooters found on 
+										<a href="https://prosettings.net/" target="_blank">prosettings.net</a>.
+									</p>
+									<li>
+										Goal: Process data using several python libraries to create context
+									</li>
+									<li>
+										What was Delivered: Comprehensive Data Processing project that creates meaningful information from the data that was collected.
+									</li>
 								</section>
 								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<a href="https://github.com/jacneeley/TextReader_WordCounterApp" target="_blank"><span class="icon solid major fa-desktop"></span></a>
+									<h3>C# Word Counter App</h3>
+									<p>
+										Software engineering and design project developed using cooperative programming and agile. 
+										The course that this project was built for was meant to mimic an agile environment in which a stakeholder (our professor) provided us with a business problem
+										and gave us feedback on our deliverables after each sprint.
+									</p>
+									<li>
+										Goal: The app is to serve as a tool that assists with writing. The Professor (stakeholder) wants a product that counts the frequency of words that appear in a text document, so that a user can identify what words they gravitate towards.
+										 As a Team, iteratively design an app that meets a stakeholder's requirements.
+									</li>
+									<li>
+										What was Delivered: C# Application in which a user uploads a text document, and the frequency of words are counted and displayed as a listbox in the GUI.
+									</li>
 								</section>
 							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
 						</div>
 					</section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
+							<h2>Contact</h2>
 								<section>
 									<ul class="contact">
+										<h3>Emails</h3>
+										<ul class ="menu">
+											<li>Student Email: <a href="mailto: jcn73@txstate.edu">jcn73@txstate.edu</a></li><li>Personal Email: <a href="mailto: jacneeley@outlook.com">jacneeley@outlook.com</a></li>
+										</ul>
 										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
-											<h3>Social</h3>
+											<h3>Socials</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/jacneeley" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/jacob-neeley-336487202/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://www.instagram.com/jakeyfilmzzz/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -182,19 +203,17 @@
 							</div>
 						</div>
 					</section>
-
 			</div>
-
 		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; ʒak. All rights reserved.</li><li>Designed By: ʒak</li><li>Original Design: <a href="https://html5up.net/hyperspace" target="_blank">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
 
-		<!-- Scripts -->
+		<!-- Scripts Provided by HTML5 UP-->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -202,6 +221,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			
+			<!-- Scripts Created by 3ak-->
+			<script src = "assets/js/expandScript.js"></script>
 	</body>
 </html>
